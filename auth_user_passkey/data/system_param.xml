@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data noupdate="1">
-        <!-- Auth user param -->
-        <record id="auth_user_param" model="ir.config_parameter">
-            <field name="key">auth.user_param</field>
+        <!-- Auth user parameter -->
+        <record id="auth_user_passkey_parameter" model="ir.config_parameter">
+            <field name="key">auth_user_passkey.user_id</field>
             <field name="value">1</field>
         </record>
     </data>

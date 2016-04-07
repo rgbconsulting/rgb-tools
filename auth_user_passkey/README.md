@@ -11,13 +11,13 @@ This module is not compatible with OCA's module *auth_admin_passkey*.
 Configuration
 -------------
 
-A new system parameter is added, *auth.user_param*, that stores the database ID 
+A new system parameter is added, *auth_user_passkey.user_id*, that stores the database ID
 of the user allowed to login with all users.
 
 Usage
 -----
 
-Set the desired user ID in the parameter *auth.user_param* and login with any user
+Set the desired user ID in the parameter *auth_user_passkey.user_id* and login with any user
 using the password of the user configured in the parameter.
 
 Credits
